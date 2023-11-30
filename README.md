@@ -43,3 +43,6 @@ je parle evidemment de cet partie:
 
 
 on peut voir un yml sur les screen j'ai abandonner c'etait trop galere pour moi
+
+
+(les instance on bien etait supprimer)
