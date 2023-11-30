@@ -13,6 +13,16 @@ Déploiement de WordPress et MySQL avec Docker
               docker run --name wordpress --link wordpress-db:mysql -e WORDPRESS_DB_HOST=mysql -e WORDPRESS_DB_USER=root -e WORDPRESS_DB_PASSWORD=ace.a.tuer.un.corsaire -e WORDPRESS_DB_NAME=wordpress -p 80:80 -d wordpress"
 
               noter le mdp tres specifique 
+
+resulatat du main.tf : 
+
+![image](https://github.com/Lo0kii/angelo.magalhaes-08/assets/109228312/9a2eff2b-3413-4e1c-8997-41fc08070e41)
+
+pour recup l'ip il faut faire un outputs.tf avant : 
+
+![image](https://github.com/Lo0kii/angelo.magalhaes-08/assets/109228312/cc461c3f-1dc1-4251-b772-089bf511dcca)
+
+
 Configuration de WordPress :
 ![image](https://github.com/Lo0kii/angelo.magalhaes-08/assets/109228312/b15cf0aa-f2fb-4202-8c70-e7893763d250)
 
