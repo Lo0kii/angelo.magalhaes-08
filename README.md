@@ -13,7 +13,7 @@ Déploiement de WordPress et MySQL avec Docker
               docker run --name wordpress --link wordpress-db:mysql -e WORDPRESS_DB_HOST=mysql -e WORDPRESS_DB_USER=root -e WORDPRESS_DB_PASSWORD=ace.a.tuer.un.corsaire -e WORDPRESS_DB_NAME=wordpress -p 80:80 -d wordpress"
 
               noter le mdp tres specifique 
-
+j'ai pris pas mal de temps a trouver la bonne ligne de commande, mais chatgpt mas corriger et ma donner la solution, j'ai utiliser le site suivant egalement: https://hub.docker.com/_/mysql?tab=tags&page=1&ordering=last_updated&name=5.7 / https://hub.docker.com/_/wordpress?tab=tags&page=1&ordering=last_updated
 resulatat du main.tf : 
 
 ![image](https://github.com/Lo0kii/angelo.magalhaes-08/assets/109228312/9a2eff2b-3413-4e1c-8997-41fc08070e41)
