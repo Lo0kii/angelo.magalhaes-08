@@ -1,6 +1,6 @@
 # angelo.magalhaes-08
 
-jJ'ai repris le travail fait précédemment en l'adaptant :
+J'ai repris le travail fait précédemment en l'adaptant :
 
 ![image](https://github.com/Lo0kii/angelo.magalhaes-08/assets/109228312/2004dd83-9b69-4b44-bccd-79df1fb7a602)
 
