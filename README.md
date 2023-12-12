@@ -1,6 +1,6 @@
 # angelo.magalhaes-08
 
-j'ai repris le trvail fait precedemment en adaptant: 
+jJ'ai repris le travail fait précédemment en l'adaptant :
 
 ![image](https://github.com/Lo0kii/angelo.magalhaes-08/assets/109228312/2004dd83-9b69-4b44-bccd-79df1fb7a602)
 
@@ -12,8 +12,8 @@ Déploiement de WordPress et MySQL avec Docker
 "docker run --name wordpress-db -e MYSQL_ROOT_PASSWORD=ace.a.tuer.un.corsaire -e MYSQL_DATABASE=wordpress -d mysql:5.7
               docker run --name wordpress --link wordpress-db:mysql -e WORDPRESS_DB_HOST=mysql -e WORDPRESS_DB_USER=root -e WORDPRESS_DB_PASSWORD=ace.a.tuer.un.corsaire -e WORDPRESS_DB_NAME=wordpress -p 80:80 -d wordpress"
 
-              noter le mdp tres specifique 
-j'ai pris pas mal de temps a trouver la bonne ligne de commande, mais chatgpt mas corriger et ma donner la solution, j'ai utiliser le site suivant egalement: https://hub.docker.com/_/mysql?tab=tags&page=1&ordering=last_updated&name=5.7 / https://hub.docker.com/_/wordpress?tab=tags&page=1&ordering=last_updated
+             Noter le mot de passe très spécifique.
+J'ai pris pas mal de temps à trouver la bonne ligne de commande, mais ChatGPT m'a corrigé et m'a donné la solution. J'ai également utilisé le site suivant : [indiquer le site]. https://hub.docker.com/_/mysql?tab=tags&page=1&ordering=last_updated&name=5.7 / https://hub.docker.com/_/wordpress?tab=tags&page=1&ordering=last_updated
 resulatat du main.tf : 
 
 ![image](https://github.com/Lo0kii/angelo.magalhaes-08/assets/109228312/9a2eff2b-3413-4e1c-8997-41fc08070e41)
@@ -32,17 +32,15 @@ final:
 
 
 
-difficulter: j'etait partie sur du "local-exec" , me creant trop d'erreure et ne convenanit pas au rendu shouaiter
+Difficulté : J'étais parti sur du "local-exec", me créant trop d'erreurs et ne convenant pas au rendu souhaité.
 
-on ma re orienter sur du "user-data"
+On m'a réorienté vers du "user-data".
 
-
-je parle evidemment de cet partie: 
+Je parle évidemment de cette partie : 
 
 ![image](https://github.com/Lo0kii/angelo.magalhaes-08/assets/109228312/ab14cd80-b61f-46d7-b9f2-6a485f787aab)
 
 
-on peut voir un yml sur les screen j'ai abandonner c'etait trop galere pour moi
+On peut voir un fichier YAML sur les captures d'écran. J'ai abandonné, c'était trop galère pour moi.
 
-
-(les instance on bien etait supprimer)
+(Les instances ont bien été supprimées).
