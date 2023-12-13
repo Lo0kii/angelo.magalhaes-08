@@ -14,7 +14,7 @@ Déploiement de WordPress et MySQL avec Docker
 
              Noter le mot de passe très spécifique.
 J'ai pris pas mal de temps à trouver la bonne ligne de commande, mais ChatGPT m'a corrigé et m'a donné la solution. J'ai également utilisé le site suivant : [indiquer le site]. https://hub.docker.com/_/mysql?tab=tags&page=1&ordering=last_updated&name=5.7 / https://hub.docker.com/_/wordpress?tab=tags&page=1&ordering=last_updated
-resulatat du main.tf : 
+resultat du main.tf : 
 
 ![image](https://github.com/Lo0kii/angelo.magalhaes-08/assets/109228312/9a2eff2b-3413-4e1c-8997-41fc08070e41)
 
